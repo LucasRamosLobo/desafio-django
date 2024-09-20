@@ -23,9 +23,9 @@ Esta é uma API simples de gerenciamento de tarefas desenvolvida com Django.
     pip install -r requirements.txt
     ```
 
-4. Execute o servidor Flask:
+4. Execute o servidor Django:
     ```bash
-    python app.py
+    python manage.py runserver
     ```
 
 ## Testes
