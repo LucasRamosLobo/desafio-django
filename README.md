@@ -1,4 +1,4 @@
-# Gerenciamento de Tarefas - API Flask
+# Gerenciamento de Tarefas - API Django
 
 ## Descrição
 
