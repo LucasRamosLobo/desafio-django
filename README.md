@@ -35,13 +35,13 @@ Esta é uma API simples de gerenciamento de tarefas desenvolvida com Django.
     PUT http://localhost:8000/api/tasks/{id}/
     Atualização parcial > PATCH http://localhost:8000/api/tasks/{id}/
     ```
-6. Exemplos json POST/PUT/PATCH
-   ´´´json
-{
-    "title": "Nova Tarefa",
-    "description": "Descrição da nova tarefa."
-}
-   ´´´
+6. Exemplos JSON para POST/PUT/PATCH:
+    ```json
+    {
+        "title": "Nova Tarefa",
+        "description": "Descrição da nova tarefa."
+    }
+    ```
 ## Testes
 
 Para rodar os testes automatizados, execute o comando:
