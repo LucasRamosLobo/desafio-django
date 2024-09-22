@@ -46,5 +46,5 @@ Esta é uma API simples de gerenciamento de tarefas desenvolvida com Django.
 
 Para rodar os testes automatizados, execute o comando:
 ```bash
-python tests.py
+python manage.py test
 
