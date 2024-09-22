@@ -27,7 +27,21 @@ Esta é uma API simples de gerenciamento de tarefas desenvolvida com Django.
     ```bash
     python manage.py runserver
     ```
-
+5. teste o endpoint api/tasks/:
+    ```bash
+    POST http://localhost:8000/api/tasks/
+    GET http://localhost:8000/api/tasks/
+    DELETE POST http://localhost:8000/api/tasks/{id}/
+    PUT http://localhost:8000/api/tasks/{id}/
+    Atualização parcial > PATCH http://localhost:8000/api/tasks/{id}/
+    ```
+6. Exemplos json POST/PUT/PATCH
+   ´´´json
+{
+    "title": "Nova Tarefa",
+    "description": "Descrição da nova tarefa."
+}
+   ´´´
 ## Testes
 
 Para rodar os testes automatizados, execute o comando:
