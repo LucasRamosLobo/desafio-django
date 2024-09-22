@@ -1,4 +1,4 @@
-# Gerenciamento de Tarefas - API Flask
+# Gerenciamento de Tarefas - API Django
 
 ## Descrição
 
@@ -23,11 +23,25 @@ Esta é uma API simples de gerenciamento de tarefas desenvolvida com Django.
     pip install -r requirements.txt
     ```
 
-4. Execute o servidor Flask:
+4. Execute o servidor Django:
     ```bash
-    python app.py
+    python manage.py runserver
     ```
-
+5. teste o endpoint api/tasks/:
+    ```bash
+    POST http://localhost:8000/api/tasks/
+    GET http://localhost:8000/api/tasks/
+    DELETE POST http://localhost:8000/api/tasks/{id}/
+    PUT http://localhost:8000/api/tasks/{id}/
+    Atualização parcial > PATCH http://localhost:8000/api/tasks/{id}/
+    ```
+6. Exemplo corpo da requisição para POST/PUT/PATCH:
+    ```json
+    {
+        "title": "Nova Tarefa",
+        "description": "Descrição da nova tarefa."
+    }
+    ```
 ## Testes
 
 Para rodar os testes automatizados, execute o comando:
